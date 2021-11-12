@@ -62,19 +62,19 @@ netsh interface ipv4 set address name="Wi-Fi" source=dhcp
 netsh interface ipv4 set dns name="Wi-Fi" source=dhcp
 goto start
 :Freedom1
-netsh interface ipv4 set address name="Ethernet" static 192.168.2.200 255.255.255.0 192.168.2.1
+netsh interface ipv4 set address name="Ethernet" static 192.168.X.200 255.255.255.0 192.168.X.1
 netsh interface ipv4 set dns name="Ethernet" static 8.8.8.8
 goto start
 :Freedom2
-netsh interface ipv4 set address name="Wi-Fi" static 192.168.2.201 255.255.255.0 192.168.2.1
+netsh interface ipv4 set address name="Wi-Fi" static 192.168.X.201 255.255.255.0 192.168.X.1
 netsh interface ipv4 set dns name="Wi-Fi" static 8.8.8.8
 goto start
 :Lte1
-netsh interface ipv4 set address name="Ethernet" static 192.168.2.210 255.255.255.0 192.168.2.1
+netsh interface ipv4 set address name="Ethernet" static 192.168.X.210 255.255.255.0 192.168.X.1
 netsh interface ipv4 set dns name="Ethernet" static 8.8.8.8
 goto start
 :Lte2
-netsh interface ipv4 set address name="Wi-Fi" static 192.168.2.211 255.255.255.0 192.168.2.1
+netsh interface ipv4 set address name="Wi-Fi" static 192.168.X.211 255.255.255.0 192.168.X.1
 netsh interface ipv4 set dns name="Wi-Fi" static 8.8.8.8
 :Dns1
 netsh interface ipv4 set dns name="Ethernet" static 185.231.182.126 37.152.182.112
