@@ -20,13 +20,11 @@ echo                  ^|      Office Activation                                 
 echo                  ^|      [14]Status [15]Remove [16]Set [17]Server Set [18]Act     ^|
 echo                  ^|      ___________________________________________________      ^|
 echo                  ^|                                                               ^|
-echo                  ^|      [18] BitLocker Data error (cyclic redundancy check)      ^|
-echo                  ^|      [19] Battery Health                                      ^|
-echo                  ^|_______________________________________________________________^|
-echo                  
-echo                  
+echo                  ^|      [19] BitLocker Data error (cyclic redundancy check)      ^|
+echo                  ^|      [20] Battery Health                                      ^|
+echo                  ^|_______________________________________________________________^|                
 echo:
-set /p choice=Choose between 1 to 10: 
+set /p choice=Choose between 1 to 20: 
 if '%choice%'=='' goto Invalid1
 if '%choice%'=='1' goto Normal1
 if '%choice%'=='2' goto Normal2
